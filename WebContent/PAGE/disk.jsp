@@ -100,7 +100,7 @@
 	        			</div>
 	        		</div>
 	        		<a id="setting" href="/u/setting"><span>个人信息设置</span></a>
-	        		<a id="other" href="javascript:message();"><span>给梁威留个言？</span></a>
+	        		<!-- <a id="other" href="javascript:message();"><span>给梁威留个言？</span></a> -->
 	        		<div id="netdisk"><span id="space_bar">空间概览</span></div>
 	        		<div id="dir_tree"><ul id="my_file_tree" class="ztree"></ul></div>
 	        	</div>
