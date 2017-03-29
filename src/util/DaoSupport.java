@@ -73,7 +73,7 @@ public class DaoSupport {
 		long id = 0;
 		try {
 			runner.update(conn, sql, params);
-			Object obj = (Long) runner.query(conn, "SELECT LAST_INSERT_ID()", new ScalarHandler<Object>());
+			Object obj = runner.query(conn, "SELECT LAST_INSERT_ID()", new ScalarHandler<Object>());
 			id = Long.valueOf(obj.toString());
 		} catch (SQLException e) {
 			e.printStackTrace();
